@@ -2,8 +2,8 @@ package brijeshdsa;
 
 public class Longest_Common_Subsequence_Top_Down_Approach {
          public static void main(String []args) {
-        	 String x="brijesha";
-        	 String y="chauhan";
+        	 String x="abcde";
+        	 String y="abfce";
         	 int n=x.length();
         	 int m=y.length();
         	 int [][] t=new int[n+1][m+1];
